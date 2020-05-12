@@ -114,3 +114,25 @@ body {
   opacity: 0.9;
   color: #fff;
 }
+@media screen and (min-width: 1440px) {
+  .wrapper {
+    width: 80%;
+    max-width: 600px;
+    margin: 200px auto;
+  }
+  .text-community {
+    padding-right: 100px;
+  }
+  .fila-desktop {
+    display: flex;
+    align-items: stretch;
+  }
+  .subscription {
+    border-radius: 0 0 0 5px;
+    width: 50%;
+  }
+  .why {
+    border-radius: 0 0 5px 0;
+    width: 50%;
+  }
+}
